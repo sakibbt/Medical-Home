@@ -1,0 +1,424 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-family: 'Source Sans 3', sans-serif;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans 3', sans-serif;
+
+}
+a,a:hover{
+	text-decoration: none; 
+}
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: #fff;
+ 
+}
+
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: #000;
+	font-size:16px;
+	text-transform:capitalize;
+	font-weight: 600;
+	margin: 0px 0px 0px 25px;
+}
+
+.poster{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+ 
+}
+.banner{
+	width: 100%;
+	padding: 100px 10px;
+}
+.banner h1{
+	font-size: 56px;
+	font-weight: 700;
+	color: #b35252;
+	line-height: 1.2em;
+	margin:  15px 0px;	
+	
+}
+.banner h4{
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	text-transform:capitalize;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	margin: 15px 0px;
+
+}
+
+.banner p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 1.8em;	
+}
+.banner .action-buttons{
+  width: 100%;
+  padding: 40px 0px 0px;
+}
+.banner .action-buttons .btn-primary{
+	padding: 15px 70px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 7 00;
+	background: #fff;
+	border: 1px solid #08c;
+	color: #000;
+	margin: 0px 10px 0px 0px;
+	
+}
+.banner .action-buttons .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #fff;
+	color: #000;
+}
+.welcome{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f2f2;
+}
+.welcome .title{
+	margin: 70px 0px 20px;
+}
+.welcome .title h4{
+	color: #08c;
+}
+.welcome .title h1{
+	font-size: 46px;
+}
+.welcome p{
+    font-size: 16px;
+	line-height: 1.7em;
+	color: #000;
+}
+.welcome .action-buttons{
+  width: 100%;
+  padding: 40px 0px 0px;
+}
+.welcome .action-buttons .btn-primary{
+	padding: 15px 25px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	background: #08c;
+	border: 1px solid #08c;
+	color: #fff;
+	margin: 0px 10px 0px 0px;
+	
+}
+.welcome .action-buttons .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #08c;
+	color: #08c;
+}
+.service{
+	width: 100%;
+}
+.service .title{
+	padding: 110px 0px 0px;
+}
+
+.service .btn-link{
+	padding: 0px;
+	font-size: 14px;
+	font-weight: 700;
+	color:#f2622c;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.service .card{
+	border: 0px;
+	border-radius: 0px;
+	margin: 0px 0px 0px 0px;
+}
+.service .card .card-img{
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.service .card .card-title{
+	font-size: 22px;
+	line-height: 1.4em;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	padding: 30px 30px;
+}
+.service .card h1{
+	font-size: 37px;
+	line-height: 1.4em;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	padding: 0px 0px;
+	text-transform: capitalize;
+}
+.service .card p{
+	font-size: 14px;
+	line-height: 1.4em;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	padding: 0px 0px;
+	text-transform: capitalize;
+}
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.feature .title{
+	padding: 0px 0px 60px;
+	text-align: center;
+
+}
+.inner-feature{
+	width: 100%; 
+	padding: 20px 50px;
+	text-align: center;
+}
+.inner-feature .icon-box{
+	width: 85px;
+	height: 85px;
+	line-height: 85px;
+	border: 1px solid #eee;
+	margin: 0px auto 20px;
+	border-radius: 100%;
+}
+.inner-feature h4{
+
+}
+.inner-feature p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #999;
+}
+
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/bg.png") center top no-repeat;
+	background-size: cover;
+}
+.testimonial .title{
+	text-align: center;
+	padding: 0px 0px 60px;
+
+
+}
+
+.testimonial .owl-carousel .item h4{
+	text-align: center;
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+	margin: 40px 0px 0px;
+	line-height: 1.7em;
+	text-transform: uppercase;
+
+}
+.testimonial .owl-carousel .item h6{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	margin: 0px 0px 0px;
+	line-height: 1.4em;
+	text-transform: uppercase;
+
+}
+
+.testimonial .owl-carousel .item p{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #fff;
+	margin: 25px 0px 5px;
+	line-height: 1.7em;
+
+}
+.testimonial .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 60px;
+}
+
+.login-box{
+	text-align: center;
+	width: 500px;
+	margin:  40px auto;
+	padding: 40px;
+	background: #eee;
+	border-radius: 10px;
+	border-top: 4px solid #000;
+	border-bottom: 4px solid #000;
+
+}
+.login{
+	width: 100%;
+	padding: 40px;
+}
+
+.login .avater h1{
+
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 600;
+	text-decoration:  uppercase;
+}
+.login .form-group{
+	width: 100%;
+	margin: 0px 0px 15px;
+}
+.login .form-group label{
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.login .form-group .form-control{
+	padding: 15px;
+	border-radius: 5px;
+	width: 80%;
+	border:  2px solid #000;
+	font-size:  14px;
+	font-weight: 400;
+	font-height: 24px;
+	color: #000;
+	background: transparent;
+}
+.login .form-group .btn-primary{
+	padding: 15px 55px;
+	border-radius: 5px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	background:  #008080;
+	border: 2px solid #000;
+	transition: 1s;
+}
+.login .form-group .btn-primary:hover{
+	color: #000;
+	background: transparent;
+	border: 2px solid #00FF00;
+	cursor: pointer;
+}
+
+.contact{
+   width: 100%;
+    padding: 20px 0px;
+}
+.book-title h2 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    color: #3d2514;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.book-form{
+    text-align: center;
+}
+
+.book-form form{
+    width: 500px;
+    margin: 0 auto;
+}
+.book-form input {
+    color: #000;
+    background: #fff;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+.book-form .message{
+    height: 150px;
+    margin-bottom: 30px;
+    width: 100%;
+    background: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    color: #000;
+}
+.contact .action-buttons{
+  width: 100%;
+  padding: 40px 0px 0px;
+}
+.contact .action-buttons .btn-primary{
+	padding: 15px 25px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	background: #08c;
+	border: 1px solid #08c;
+	color: #fff;
+	margin: 0px 10px 0px 0px;
+	
+}
+.contact .action-buttons .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #08c;
+	color: #08c;
+}
+.footer{
+	width: 100%;
+	padding: 15px 0px;	
+	background: #5398fe;
+}
+
+.footer .social-media{
+	width: 100%;
+	text-align: center;
+	margin: 15px 0px 20px;
+	display: block;
+}
+.footer .social-media li{
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+	list-style: none;
+}
+.footer .social-media li a{
+	color:#653125;
+	display: block;
+	background: transparent;
+}
+.footer .social-media li a:hover{
+	color:#fff;
+	background: transparent;
+}
+.footer p{
+	font-size: 16px;
+	line-height: 1.7em;
+	margin: -10px 0px 15px 0px;
+	text-align: center;
+	color: #653125;
+	letter-spacing: 1px;
+}

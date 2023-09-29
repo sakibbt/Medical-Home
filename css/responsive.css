@@ -1,0 +1,206 @@
+/*
+    # screen resulation : 279px to 319px;
+    # devices: most of the smart phone in galaxy fold.
+ */
+ 
+ @media (min-width: 279px) and (max-width: 319px){
+           /* css start  */
+.banner h1{
+    font-size: 26px;
+    font-weight: 500;
+    color: #b35252;
+    line-height: 1.2em;
+    margin:  15px 0px;  
+    
+}
+.banner h4{
+    font-size: 12px;
+    font-weight: 500;
+    color: #b35252;
+    text-transform:capitalize;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+
+}
+
+.banner p{
+    font-size: 8px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.7em; 
+}
+.banner .action-buttons{
+  width: 90%;
+  padding: 20px 0px 0px;
+}
+.banner .action-buttons .btn-primary{
+    padding: 10px 20px;
+ }
+
+.welcome .title h1{
+    font-size: 20px;
+}
+.welcome p{
+    font-size: 9px;
+    line-height: 1.7em;
+    color: #000;
+}
+.welcome .action-buttons{
+  width: 90%;
+  padding: 20px 20px 30px;
+  text-align:left;
+}
+.welcome .action-buttons .btn-primary{
+    padding: 9px 5px;
+
+ }
+
+.service .card h1{
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 600;
+    padding: 0px 0px -30px;
+ }
+.service .card p{
+    font-size: 8px;
+    line-height: 1.4em;
+    padding: 0px 0px -30px;
+   
+}
+.inner-feature h4{
+    font-size: 20px;
+
+}
+.inner-feature p{
+    font-size: 11px;
+    line-height: 1.7em;
+   
+}
+.testimonial .owl-carousel .item p{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+
+
+}
+.book-form form{
+    width: 200px;
+    margin: 0 auto;
+}
+.book-title h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3d2514;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer p{
+    font-size: 10px;
+    line-height: 1.7em;
+    margin: -10px 0px 15px 0px;
+    text-align: center;
+    
+}
+
+
+            /* css end  */
+}
+
+
+/*
+    # screen resulation : 320px to 480px;
+    # devices: most of the smart phone.
+ */
+ 
+ @media (min-width: 320px) and (max-width: 480px){
+           /* css start  */
+.banner h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #b35252;
+    line-height: 1.2em;
+    margin:  20px 0px;  
+    
+}
+.banner h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #b35252;
+    text-transform:capitalize;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+
+}
+
+.banner p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.8em; 
+}
+.banner .action-buttons .btn-primary{
+    padding: 15px 50px;
+ }
+.welcome .title h4{
+    color: #08c;
+    text-align: center;
+}
+.welcome .title h1{
+    font-size: 30px;
+}
+.welcome p{
+    font-size: 13px;
+    line-height: 1.7em;
+    color: #000;
+}
+.welcome .action-buttons{
+  width: 90%;
+  padding: 20px 0px 30px;
+  text-align: center;
+}
+
+.service .card h1{
+    font-size: 27px;
+    line-height: 1.4em;
+    font-weight: 600;
+
+    padding: 0px 0px -30px;
+ }
+.service .card p{
+    font-size: 11px;
+    line-height: 1.4em;
+    padding: 0px 0px -20px;
+   
+}
+.book-form form{
+    width: 300px;
+    margin: 0 auto;
+}
+            /* css end  */
+       }
+
+    
+/*
+    # screen resulation : 481px to 767px;
+    # devices: most of the high resulatuion mobile and low resulation tab.
+ */
+ @media (min-width: 481px) and (max-width: 767px){
+
+          /* css start  */ 
+ 
+          /* css end  */  
+      }
+
+
+      /*
+    # screen resulation : 768px to 1024px;
+    # devices: most of the tab  and mini notebook.
+ */
+ @media (min-width: 768px) and (max-width: 1024px){
+
+   /* css start  */
+     /* css end  */
+}
